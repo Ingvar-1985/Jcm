@@ -31,10 +31,10 @@ juce_generate_juce_header(JCM2203ModdedPreamp)
 
 target_sources(JCM2203ModdedPreamp
     PRIVATE
-        Source/JCM2203Preamp.h
-        Source/JCM2203Preamp.cpp
-        Source/PluginProcessor.h
-        Source/PluginProcessor.cpp
+        JCM2203Preamp.h
+        JCM2203Preamp.cpp
+        PluginProcessor.h
+        PluginProcessor.cpp
 )
 
 target_compile_definitions(JCM2203ModdedPreamp
